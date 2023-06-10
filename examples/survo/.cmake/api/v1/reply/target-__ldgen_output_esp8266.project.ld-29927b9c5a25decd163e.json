@@ -1,0 +1,158 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__ldgen_process_template",
+			"target_linker_script"
+		],
+		"files" : 
+		[
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/ldgen.cmake",
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/utilities.cmake",
+			"/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "__idf_tcpip_adapter::@ae20e3e2e91292559fa5"
+		},
+		{
+			"id" : "__idf_console::@4311ed8d271cc0ee1422"
+		},
+		{
+			"id" : "__idf_http_parser::@358cb9c2b49fd348008f"
+		},
+		{
+			"id" : "__idf_esp-tls::@fec40229f530785b7d3e"
+		},
+		{
+			"id" : "__idf_esp_gdbstub::@377a8c6ee3088554e323"
+		},
+		{
+			"id" : "__idf_tcp_transport::@2217ed266b3ca9834900"
+		},
+		{
+			"id" : "__idf_esp_http_client::@483ffd9ca1a06508c93f"
+		},
+		{
+			"id" : "__idf_esp_http_server::@1e8eede8f41363800887"
+		},
+		{
+			"id" : "__idf_esp_https_ota::@55ee5ec07370a5473c2b"
+		},
+		{
+			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+		},
+		{
+			"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7"
+		},
+		{
+			"id" : "__idf_freemodbus::@de63ca74a1babc26b29c"
+		},
+		{
+			"id" : "__idf_jsmn::@88dec008f06e3af609d0"
+		},
+		{
+			"id" : "__idf_json::@c78a8bdc820334f01148"
+		},
+		{
+			"id" : "__idf_libsodium::@66e4f5d448f23c9449a2"
+		},
+		{
+			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
+		},
+		{
+			"id" : "__idf_openssl::@e614527ea5fe5ca5f395"
+		},
+		{
+			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
+		},
+		{
+			"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e"
+		},
+		{
+			"id" : "__idf_spi_ram::@c567ec91746ed5f2cb62"
+		},
+		{
+			"id" : "__idf_spiffs::@df881b71474064c86689"
+		},
+		{
+			"id" : "__idf_main::@7368607ed66887415643"
+		}
+	],
+	"id" : "__ldgen_output_esp8266.project.ld::@e0c88ef34f558871f2d3",
+	"name" : "__ldgen_output_esp8266.project.ld",
+	"paths" : 
+	{
+		"build" : "esp-idf/esp8266",
+		"source" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "esp-idf/esp8266/CMakeFiles/__ldgen_output_esp8266.project.ld",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "esp-idf/esp8266/CMakeFiles/__ldgen_output_esp8266.project.ld.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "esp-idf/esp8266/ld/esp8266.project.ld.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

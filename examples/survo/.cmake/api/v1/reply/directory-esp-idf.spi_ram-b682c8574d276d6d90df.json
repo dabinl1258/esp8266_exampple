@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/spi_ram",
+		"source" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spi_ram"
+	}
+}

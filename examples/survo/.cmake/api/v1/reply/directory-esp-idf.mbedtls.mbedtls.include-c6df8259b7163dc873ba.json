@@ -1,0 +1,120 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls",
+			"paths" : 
+			[
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aes.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aesni.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/arc4.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aria.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/asn1.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/asn1write.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/base64.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/blowfish.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bn_mul.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/camellia.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ccm.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/certs.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/chacha20.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/chachapoly.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cipher.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cipher_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cmac.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/compat-1.3.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/debug.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/des.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/dhm.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecdh.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecjpake.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecp.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecp_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/entropy.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/entropy_poll.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/error.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/gcm.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/havege.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/hkdf.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md2.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md4.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md5.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/memory_buffer_alloc.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/net.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/nist_kw.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/oid.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/padlock.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pem.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pk.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pk_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pkcs11.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pkcs12.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pkcs5.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_time.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_util.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/poly1305.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ripemd160.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/rsa.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/rsa_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha256.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_cookie.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_internal.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_ticket.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/threading.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/timing.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/version.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h",
+				"/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/xtea.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/mbedtls/mbedtls/include",
+		"source" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include"
+	}
+}

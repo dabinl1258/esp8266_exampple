@@ -1,0 +1,622 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/project.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/idf.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/build.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/third_party/GetGitRevisionDescription.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/git_submodules.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/crosstool_version_check.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/kconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/ExternalProject.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/component.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/utilities.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/ldgen.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/third_party/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"path" : "CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/refs/heads/master"
+		},
+		{
+			"path" : "mconf-idf-prefix/tmp/mconf-idf-cfgcmd.txt.in"
+		},
+		{
+			"path" : "CMakeFiles/3.22.1/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/toolchain-esp8266.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"path" : "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+		},
+		{
+			"path" : "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"path" : "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/git/esp8266_exampple/.git/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/third_party/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"path" : "CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/git/esp8266_exampple/.git/refs/heads/main"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/kconfig_new/config.env.in"
+		},
+		{
+			"path" : "config/sdkconfig.cmake"
+		},
+		{
+			"path" : "config/sdkconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/partition_table/project_include.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/app_update/project_include.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/bootloader/project_include.cmake"
+		},
+		{
+			"path" : "bootloader-prefix/tmp/bootloader-cfgcmd.txt.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esptool_py/project_include.cmake"
+		},
+		{
+			"path" : "config/sdkconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/project_description.json.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/coap/libcoap/.git"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/modules/components/coap/libcoap/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/json/cJSON/.git"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/modules/components/json/cJSON/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/lwip/.git"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/modules/components/lwip/lwip/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/.git"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/modules/components/mbedtls/mbedtls/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/.git"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/.git/modules/components/mqtt/esp-mqtt/HEAD"
+		},
+		{
+			"path" : "sdkconfig"
+		},
+		{
+			"path" : "config/sdkconfig.h"
+		},
+		{
+			"path" : "config/sdkconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/kconfig_new/confgen.py"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/tools/kconfig_new/kconfiglib.py"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/partition_table/partitions_singleapp.csv"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcpip_adapter/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_common/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_event/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPerl.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindCygwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindMsys.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/library/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wpa_supplicant/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_ringbuf/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/bootloader_support/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/nvs_flash/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/CMakeLists.txt"
+		},
+		{
+			"path" : "ldgen_libraries.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/vfs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/log/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/heap/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/newlib/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spi_flash/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/partition_table/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/app_update/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/bootloader/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/bootloader/flash_bootloader_args.in"
+		},
+		{
+			"path" : "esp-idf/bootloader/flash_bootloader_args.in.in2"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/coap/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/console/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/http_parser/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp-tls/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp-wolfssl/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_gdbstub/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcp_transport/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_http_client/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_http_server/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_https_ota/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esptool_py/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esptool_py/flash_project_args.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esptool_py/flasher_args.json.in"
+		},
+		{
+			"path" : "esp-idf/esptool_py/flash_project_args.in"
+		},
+		{
+			"path" : "esp-idf/esptool_py/flash_project_args.in2"
+		},
+		{
+			"path" : "esp-idf/esptool_py/flasher_args.json.in"
+		},
+		{
+			"path" : "esp-idf/esptool_py/flasher_args.json.in2"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wear_levelling/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/fatfs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freemodbus/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/jsmn/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/json/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/libsodium/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mdns/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/openssl/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/protobuf-c/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/protocomm/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/pthread/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spi_ram/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spiffs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wifi_provisioning/CMakeLists.txt"
+		},
+		{
+			"path" : "main/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/wolp/git/esp8266_exampple/examples/survo",
+		"source" : "/home/wolp/git/esp8266_exampple/examples/survo"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

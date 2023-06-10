@@ -1,0 +1,430 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "esp-idf/mqtt/libmqtt.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"idf_component_register",
+			"set_property",
+			"__component_set_dependencies",
+			"__component_set_all_dependencies",
+			"add_compile_options",
+			"add_c_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/component.cmake",
+			"/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/CMakeLists.txt",
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/utilities.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 437,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 317,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 428,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 417,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 439,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 440,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DIDF_VER=\\\"v3.4-79-gaf0cdc36-dirty\\\""
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DGCC_NOT_5_2_0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DESP_PLATFORM"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIG_SSL_USING_MBEDTLS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USING_IBUS_FASTER_GET"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__ESP_FILE__=__FILE__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/wolp/git/esp8266_exampple/examples/survo/config"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include/freertos/private"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/heap/port/esp8266/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/include/driver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_event/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/vfs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/http_parser/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp-tls/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_tcpip_adapter::@ae20e3e2e91292559fa5"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_http_parser::@358cb9c2b49fd348008f"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_esp-tls::@fec40229f530785b7d3e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_tcp_transport::@2217ed266b3ca9834900"
+		}
+	],
+	"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56",
+	"name" : "__idf_mqtt",
+	"nameOnDisk" : "libmqtt.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/mqtt",
+		"source" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/mqtt_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/mqtt_msg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/mqtt_outbox.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

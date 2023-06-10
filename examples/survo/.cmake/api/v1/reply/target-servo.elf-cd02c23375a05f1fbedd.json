@@ -1,0 +1,1150 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "servo.elf"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"project",
+			"target_link_libraries",
+			"add_dependencies",
+			"idf_build_executable"
+		],
+		"files" : 
+		[
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/project.cmake",
+			"CMakeLists.txt",
+			"/home/wolp/idf/ESP8266_RTOS_SDK/tools/cmake/build.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 432,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 465,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 383,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CONFIG_SSL_USING_MBEDTLS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "USING_IBUS_FASTER_GET"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__ESP_FILE__=__FILE__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/git/esp8266_exampple/examples/survo/config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include/freertos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/include/freertos/private"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/heap/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/heap/port/esp8266/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/log/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/include/driver"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_event/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/vfs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wpa_supplicant/include/esp_supplicant"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_ringbuf/include/freertos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/app_update/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/console/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/http_parser/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp-tls/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_gdbstub/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_http_client/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_http_server/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp_https_ota/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/fatfs/diskio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/fatfs/vfs"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/fatfs/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/jsmn/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/json/cJSON"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mdns/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/openssl/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/protobuf-c/protobuf-c"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/pthread/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spi_ram/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/spiffs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wifi_provisioning/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "__idf_build_target::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_project_elf_src::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_tcpip_adapter::@ae20e3e2e91292559fa5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_console::@4311ed8d271cc0ee1422"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_http_parser::@358cb9c2b49fd348008f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp-tls::@fec40229f530785b7d3e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_gdbstub::@377a8c6ee3088554e323"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_tcp_transport::@2217ed266b3ca9834900"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_http_client::@483ffd9ca1a06508c93f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_http_server::@1e8eede8f41363800887"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_https_ota::@55ee5ec07370a5473c2b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_freemodbus::@de63ca74a1babc26b29c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_jsmn::@88dec008f06e3af609d0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_json::@c78a8bdc820334f01148"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_libsodium::@66e4f5d448f23c9449a2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_openssl::@e614527ea5fe5ca5f395"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_spi_ram::@c567ec91746ed5f2cb62"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_spiffs::@df881b71474064c86689"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "__idf_main::@7368607ed66887415643"
+		}
+	],
+	"id" : "servo.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mlongcalls -Wno-frame-address",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-nostdlib -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/tcpip_adapter/libtcpip_adapter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_common/libesp_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_event/libesp_event.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/wpa_supplicant/libwpa_supplicant.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_ringbuf/libesp_ringbuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/bootloader_support/libbootloader_support.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/nvs_flash/libnvs_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp8266/libesp8266.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/vfs/libvfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/lwip/liblwip.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/log/liblog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/heap/libheap.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/freertos/libfreertos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/newlib/libnewlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spi_flash/libspi_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/app_update/libapp_update.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/console/libconsole.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/http_parser/libhttp_parser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp-tls/libesp-tls.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_gdbstub/libesp_gdbstub.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/tcp_transport/libtcp_transport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_http_client/libesp_http_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_http_server/libesp_http_server.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_https_ota/libesp_https_ota.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/wear_levelling/libwear_levelling.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/fatfs/libfatfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/freemodbus/libfreemodbus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/jsmn/libjsmn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/json/libjson.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/libsodium/liblibsodium.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/mqtt/libmqtt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/openssl/libopenssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/protobuf-c/libprotobuf-c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/pthread/libpthread.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spi_ram/libspi_ram.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spiffs/libspiffs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/main/libmain.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--cref -Wl,--Map=/home/wolp/git/esp8266_exampple/examples/survo/servo.map -Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_gdbstub/libesp_gdbstub.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_http_server/libesp_http_server.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_https_ota/libesp_https_ota.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_http_client/libesp_http_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/fatfs/libfatfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/wear_levelling/libwear_levelling.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/freemodbus/libfreemodbus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/jsmn/libjsmn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/json/libjson.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/libsodium/liblibsodium.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/console/libconsole.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/mqtt/libmqtt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/tcp_transport/libtcp_transport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp-tls/libesp-tls.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/http_parser/libhttp_parser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/openssl/libopenssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/protobuf-c/libprotobuf-c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/pthread/libpthread.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u pthread_include_pthread_impl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u pthread_include_pthread_cond_impl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u pthread_include_pthread_local_storage_impl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spi_ram/libspi_ram.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spiffs/libspiffs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/tcpip_adapter/libtcpip_adapter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_common/libesp_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_event/libesp_event.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/wpa_supplicant/libwpa_supplicant.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_ringbuf/libesp_ringbuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/bootloader_support/libbootloader_support.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/nvs_flash/libnvs_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp8266/libesp8266.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/vfs/libvfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/lwip/liblwip.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/log/liblog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/heap/libheap.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/freertos/libfreertos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/newlib/libnewlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spi_flash/libspi_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/app_update/libapp_update.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedtls.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedx509.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libhal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libphy.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/librtc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libclk.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libsmartconfig.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libssc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libnet80211.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libpp.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libespnow.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/tcpip_adapter/libtcpip_adapter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_common/libesp_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_event/libesp_event.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/wpa_supplicant/libwpa_supplicant.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp_ringbuf/libesp_ringbuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/bootloader_support/libbootloader_support.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/nvs_flash/libnvs_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/esp8266/libesp8266.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/vfs/libvfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/lwip/liblwip.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/log/liblog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/heap/libheap.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/freertos/libfreertos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/newlib/libnewlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/spi_flash/libspi_flash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "esp-idf/app_update/libapp_update.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedtls.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/mbedtls/mbedtls/library/libmbedx509.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libhal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libphy.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/librtc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libclk.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libsmartconfig.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libssc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libnet80211.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libpp.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib/libespnow.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L /home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L /home/wolp/git/esp8266_exampple/examples/survo/esp-idf/esp8266",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-T esp8266_out.ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L /home/wolp/git/esp8266_exampple/examples/survo/esp-idf/esp8266/ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-T esp8266.project.ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L /home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-T esp8266.rom.ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-T esp8266.peripherals.ld",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u call_user_start",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u vfs_include_syscalls_impl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--undefined=uxTopUsedPriority",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc_nano",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "esp-idf/newlib/libnewlib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u __errno",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-u esp_app_desc",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "servo.elf",
+	"nameOnDisk" : "servo.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "project_elf_src.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "project_elf_src.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

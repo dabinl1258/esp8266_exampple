@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/wifi_provisioning",
+		"source" : "/home/wolp/idf/ESP8266_RTOS_SDK/components/wifi_provisioning"
+	}
+}

@@ -1,0 +1,6 @@
+source/chip_boot.o: \
+ /home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/source/chip_boot.c \
+ /home/wolp/git/esp8266_exampple/examples/survo/build/include/sdkconfig.h
+
+/home/wolp/git/esp8266_exampple/examples/survo/build/include/sdkconfig.h:
+/home/wolp/idf/ESP8266_RTOS_SDK/components/esp8266/source/chip_boot.c:
